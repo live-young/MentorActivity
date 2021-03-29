@@ -1,0 +1,30 @@
+<-------------------------Access Modifiers------------------------->
+ The order of the access modifiers from the least restrictive to the most restrictive:
+
+                public > protected > default > private
+                
+----------------------------------------------------------------
+----------------------------------------------------------------                
+Java public access modifier:
+When applied to a class, the class is accessible from any classes regardless of packages. 
+This is the least restrictive access modifier which means the widest range of accessibility, or visibility.
+When applied to a member, the member is accessible from any classes.
+----------------------------------------------------------------
+----------------------------------------------------------------
+Java protected access modifier:
+This is more restrictive than the public modifier. It is applied for members only. There is no ‘protected’ class or interface.
+When a member of a class is marked as protected, it is accessible by only classes in the same package or by a subclass in different package. 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Java default access modifier:
+This access modifier is special because it doesn’t have an associated keyword. 
+When no explicit access modifier is specified, the types or members have default accessibility. 
+It is more restrictive than the protected modifier.
+When a class or a member has default accessibility, it is accessible to only classes in the same package.
+----------------------------------------------------------------
+----------------------------------------------------------------
+Java private access modifier:
+This is the most restrictive access modifier in Java. It can be applied for members only. 
+There is no ‘private’ class or interface.
+When a member is marked as private, it is only accessible from within the enclosing class. 
+Nothing outside the class can access a private member.
